@@ -1,0 +1,27 @@
+.box {
+    margin: 3px 2px 4px 1px;
+    padding: 2px 3px 1px 4px;
+    background-color: aqua;
+}
+
+.box-tall {
+    height: 300px;
+    width: 50%;
+}
+
+.box-group {
+    display: flex;
+}
+
+#first {
+    visibility: hidden;
+}
+
+.box-group div:last-of-type :hover {
+    background-color: maroon;
+}
+
+.box-group > div {
+    width: 50%;
+    display: inline-block;
+}
